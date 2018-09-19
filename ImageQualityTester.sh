@@ -9,7 +9,7 @@ function processOne() {
     file="$1"
     base="${file%.*}"
 
-    for ((q = 100; q > 0; q -= 10)); do
+    for q in $(seq 100 -10 10) 95 85; do
         convert "$file" -quality $q "${base}_q${q}.jpg"
     done
 }
