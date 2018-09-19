@@ -1,5 +1,5 @@
 app_name = ImageQualityTester
-app_version = 1.1
+app_version = 1.2
 bundle_id = org.amake.$(app_name)
 imagemagick_dist_url = https://www.imagemagick.org/download/binaries/ImageMagick-x86_64-apple-darwin17.3.0.tar.gz
 
